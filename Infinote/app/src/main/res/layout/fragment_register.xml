@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infinote.differentthinking.infinote.views.auth.register.RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="45dp">
+
+        <TextView
+            android:id="@+id/tv_create_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_acc_text"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name_text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/iron"/>
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name_text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/iron"/>
+
+        <EditText
+            android:id="@+id/et_username"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:textColor="@color/black"
+            android:textColorHint="@color/iron"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_example_text"
+            android:textColorHint="@color/iron"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_example_text"
+            android:textColorHint="@color/iron"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:background="@drawable/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/repeat_password_text"
+            android:textColorHint="@color/iron"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/btn_signup"
+            android:layout_width="196dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cpb_textComplete="@string/complete"
+            app:cpb_textError="@string/error"
+            app:cpb_textIdle="@string/signup_text"
+            app:cpb_cornerRadius="48dp"/>
+
+        <TextView
+            android:id="@+id/tv_already_has_account_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/account"
+            android:textColor="@color/iron"/>
+
+        <TextView
+            android:id="@+id/tv_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/signin_btn_text"
+            android:textColor="#696969"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Infinote</string>
+    <string name="newButtonText">New note</string>
+    <string name="accountButtonText">Account</string>
+    <string name="noNotesText">No notes yet</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="forgot_password_text">Forgot password?</string>
+    <string name="no_account_text">Don\'t have an account?</string>
+    <string name="signup_text">Sign up</string>
+    <string name="signin_btn_text">Sign in</string>
+    <string name="password_example_text">Password</string>
+    <string name="email_example_text">Email</string>
+    <string name="username_example_text">Username</string>
+    <string name="register_btn_text">REGISTER</string>
+    <string name="register_form_title_text">REGISTER FORM</string>
+    <string name="account">Already have an account?</string>
+    <string name="first_name_text">First name</string>
+    <string name="last_name_text">Last name</string>
+    <string name="repeat_password_text">Repeat password</string>
+    <string name="address_optional_text">Address(Optional)</string>
+    <string name="user_loggedin_notify_message">"You have successfully logged in"</string>
+    <string name="user_registered_notify_message">" successfully registered"</string>
+    <string name="note_saved_successfully">Saved successfully.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="create_acc_text">Create new\naccount</string>
+    <string name="enter_text">Enter text</string>
+    <string name="enter_title">Enter title</string>
+    <string name="change_profile_picture">Change profile picture</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="change_password">Change password</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="infinotes">Infinotes</string>
+    <string name="complete">Complete</string>
+    <string name="username">Username</string>
+    <string name="title">Title</string>
+    <string name="last_modified">Last modified:</string>
+    <string name="today_17_02">Today, 17:02</string>
+</resources>

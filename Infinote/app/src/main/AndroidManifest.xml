@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infinote.differentthinking.infinote">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/infinote"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".views.list_notes.ListNotesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.auth.login.LoginActivity" />
+        <activity android:name=".views.auth.register.RegisterActivity" />
+        <activity
+            android:name=".views.profile.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".views.drawing.DrawingActivity"/>
+        <activity android:name=".views.settings.SettingsActivity" />
+        <activity android:name=".views.change_password.ChangePasswordActivity" />
+    </application>
+
+</manifest>
